@@ -1,1 +1,10 @@
 system.log
+*.log
+?
+#Ignoramos carpetas añadiendo /
+carpeta/
+#ignora los archivos abogado,avogado,a0ogado,a1ogado
+a[bv0-1]ogado 
+#directorios anidados
+/a/**/z
+a/c/z
